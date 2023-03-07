@@ -41,7 +41,7 @@ bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
     #binding-cells = <0>;
     bindings
       = <&macro_press &kp LEFT_ALT>
-      , <&macro_tap &kp NUMBER_1 &kp NUMBER_3 &kp NUMBER_2>
+      , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_3 &kp KP_NUMBER_2>
       , <&macro_release &kp LEFT_ALT>
       ;
   };
