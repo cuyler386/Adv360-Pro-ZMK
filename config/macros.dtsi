@@ -34,3 +34,84 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+
+macro_deu_aelow: macro_deu_aelow {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_aelow";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_3 &kp KP_NUMBER_2>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_oelow: macro_deu_oelow {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_oelow";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_4 &kp KP_NUMBER_8>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_uelow: macro_deu_uelow {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_uelow";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_9>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_aecap: macro_deu_aecap {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_aecap";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_6>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_oecap: macro_deu_oecap {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_oecap";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_4>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_uecap: macro_deu_uecap {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_uecap";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_0>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_deu_sslow: macro_deu_sslow {
+  compatible = "zmk,behavior-macro";
+  label = "macro_deu_sslow";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_3>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
+macro_esp_qmark: macro_esp_qmark {
+  compatible = "zmk,behavior-macro";
+  label = "macro_esp_qmark";
+  #binding-cells = <0>;
+  bindings
+    = <&macro_press &kp LEFT_ALT>
+    , <&macro_tap &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_1>
+    , <&macro_release &kp LEFT_ALT>
+    ;
+};
